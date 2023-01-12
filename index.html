@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Microsoft</title>
+    <link rel="icon" href="https://www.microsoft.com/favicon.ico?v2">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <script src="https://kit.fontawesome.com/e94f06c231.js" crossorigin="anonymous"></script>
     <!-- CSS only -->
@@ -32,6 +33,15 @@
             margin-right: 5px;
             color: rgb(164, 0, 0);
             text-decoration: underline;
+        }
+
+        .nav-item a:hover {
+            text-decoration: underline;
+        }
+
+        .btn-1:hover {
+            background: rgb(194, 194, 194) !important;
+            color: rgb(0, 0, 0);
         }
     </style>
 </head>
@@ -77,16 +87,49 @@
                 <form class="d-flex align-items-center" role="search">
                     <li class="nav-item dropdown mx-4" style="list-style: none;">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            aria-expanded="false">All Microsoft </a>
+                        <ul class="dropdown-menu container" style="width: 90vw;">
+                            <div class="row container">
+                                <div class="col-lg-2 col-2 my-5 col-md-4 col-6 p-0 mb-4">
+                                    <h5 class="mb-3" style="font-size: 16px;">Software</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="mb-1"> <a href="#!"
+                                                style="color: black; text-decoration: none; font-size: 12px;">Windows Apps</a></li>
+                                        <li class="mb-1"> <a href="#!"
+                                                style="color: black; text-decoration: none; font-size: 12px;">OneDrive </a></li>
+                                        <li class="mb-1"> <a href="#!"
+                                                style="color: black; text-decoration: none; font-size: 12px;">Outlook </a></li>
+                                        <li class="mb-1"> <a href="#!"
+                                                style="color: black; text-decoration: none; font-size: 12px;">Skype </a>
+                                        </li>
+                                        <li class="mb-1"> <a href="#!"
+                                                style="color: black; text-decoration: none; font-size: 12px;">OneNote </a>
+                                        </li>
+                                        <li class="mb-1"> <a href="#!"
+                                                style="color: black; text-decoration: none; font-size: 12px;">Microsoft Teams </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-2 my-5 col-md-4 col-6 mb-4 p-0">
+                                    <h5 class="mb-3" style="font-size: 16px;">Entertainment</h5>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="mb-1"> <a href="#!"
+                                                style="color: black; text-decoration: none; font-size: 12px;">Xbox Game Pass Ultimate</a>
+                                        </li>
+                                        <li class="mb-1"> <a href="#!"
+                                                style="color: black; text-decoration: none; font-size: 12px;">Xbox Live Gold</a>
+                                        </li>
+                                        <li class="mb-1"> <a href="#!"
+                                                style="color: black; text-decoration: none; font-size: 12px;">Xbox games</a></li>
+                                        <li class="mb-1"> <a href="#!"
+                                                style="color: black; text-decoration: none; font-size: 12px;">PC games</a>
+                                        </li>
+                                        <li class="mb-1"> <a href="#!"
+                                                style="color: black; text-decoration: none; font-size: 12px;">Windows digital game</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </ul>
                     </li>
                     <i class="bi bi-search mx-1"></i>
@@ -114,7 +157,7 @@
                     <h5 class="fs-3" style="margin-bottom: 15px;">Surface Pro 9</h5>
                     <p>Keep spirits bright with a game-changing combo of <br> laptop power and tablet flexibility—all in
                         one ultra- <br> portable device</p>
-                    <button
+                    <button class="btn-1"
                         style="padding: 5px 11px; background-color: black; color: white; font-weight: 500; border-radius: 3px;margin-top: 10px;">Learn
                         more</button>
                 </div>
@@ -145,19 +188,20 @@
     </div>
     <div class="container d-flex justify-content-center my-lg-5 my-sm-3 ">
         <div class="mx-2 text-center">
-           <i class="fa-brands fa-microsoft  fs-2"></i>
+            <i class="fa-brands fa-microsoft  fs-2"></i>
             <p class="fw-semibold text-decoration-underline h6 my-1">Choose your Microsoft 365</p>
         </div>
         <div class="mx-2 text-center">
-            <i class="bi bi-github fs-2"></i>
+            <i class="fa-brands fa-github  fs-2"></i>
             <p class="fw-semibold text-decoration-underline h6 my-1">Explore Github</p>
         </div>
+
         <div class="mx-2 text-center">
-        <i class="fa-brands fa-xbox  fs-2"></i>
+            <i class="fa-brands fa-xbox  fs-2"></i>
             <p class="fw-semibold text-decoration-underline h6 my-1">Buy Xbox games</p>
         </div>
         <div class="mx-2 text-center">
-        <i class="fa-brands fa-microsoft  fs-2"></i>
+            <i class="fa-brands fa-microsoft  fs-2"></i>
             <p class="fw-semibold text-decoration-underline h6 my-1">Get Windows 11</p>
         </div>
     </div>
@@ -323,9 +367,9 @@ box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.75);
             <li class="mx-3"><i class="bi bi-youtube fs-4"></i></li>
         </ul>
     </div>
-    <button class="sticky-bottom btn rounded-0 mx-5 fw-semibold"
+    <a href="./index.html" class="sticky-bottom btn rounded-0 mx-5 fw-semibold"
         style="bottom: 20px; float: right; background-color: #f2f2f2;"><i class="bi bi-arrow-up"></i> Back to
-        top</button>
+        top</a>
     <p class="py-3"></p>
     <div class="my-5" style="background-color: #f2f2f2;">
         <footer class="container my-5">
